@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--   Dit is de navigatiebalk-->
+    <header>
+
+        <a>
+            <img src="/" alt="logo wow air">
+        </a>
+        <form>
+            <input type="text">
+            <button type="submit">Zoek</button>
+        </form>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">
+                        <p>Bibliotheek</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <p>Mijn verhalen</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <p>Mijn profiel</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--   Hier sorteer je de uitgelichte verhalen-->
+
+    <h2>Uitgelicht</h2>
+
+    <ul>
+        <li>
+            <a href="/">
+                <p>Aanbevolen</p>
+            </a>
+        </li>
+        <li>
+            <a href="/">
+                <p>Best beoordeeld</p>
+            </a>
+        </li>
+        <li>
+            <a href="/">
+                <p>Meest gelezen</p>
+            </a>
+        </li>
+        <li>
+            <a href="/">
+                <p>Willekeurig</p>
+            </a>
+        </li>
+    </ul>
+
+    <article>
+        <a href="/">
+            <h3>Western #72</h3>
+        </a>
+
+        <a href="/">
+            <img src="/" alt="westernplaatje">
+        </a>
+        <ul>
+            <li>
+                <img src="/" alt="hartje"> 345</li>
+            <li>
+                <img src="/" alt="comment"> 113</li>
+            <li>
+                <img src="/" alt="leestijd"> 12m</li>
+        </ul>
+
+        <a href="/">
+            <img src="/" alt="nietrelevant">
+        </a>
+
+        <a href="/">
+            <img src="/" alt="mijnlijst">
+        </a>
+
+        <a href="/">
+            <img src="/" alt="download">
+        </a>
+
+    </article>
+
+    <article>
+        <a href="/">
+            <h3>Twitter #8</h3>
+        </a>
+        <a href="/">
+            <img src="/" alt="twitterplaatje">
+        </a>
+
+        <ul>
+            <li>
+                <img src="/" alt="hartje"> 317</li>
+            <li>
+                <img src="/" alt="comment"> 102</li>
+            <li>
+                <img src="/" alt="leestijd"> 7m</li>
+        </ul>
+
+        <a href="/">
+            <img src="/" alt="nietrelevant">
+        </a>
+
+        <a href="/">
+            <img src="/" alt="mijnlijst">
+        </a>
+
+        <a href="/">
+            <img src="/" alt="download">
+        </a>
+
+    </article>
+
+
+    <!--    hier beginnen de uitgelichte verhalen-->
+    <section>
+        <!--       filter systeem     -->
+        <h2>Alle verhalen</h2>
+
+        <form>
+            <input type="text">
+            <button type="submit">Zoek</button>
+        </form>
+
+        <button>Zoek opties</button>
+        <p>Wat zoek je?</p>
+
+        <form>
+            <fieldset>
+                <legend>Gevoel</legend>
+                <ul>
+                    <li>
+                        <input name="sort" type="checkbox" id="vrolijk">
+                        <label for="vrolijk"> Vrolijk (24)</label>
+                    </li>
+                    <li>
+                        <input name="sort" type="checkbox" id="verdrietig">
+                        <label for="verdrietig"> Verdrietig (16)</label>
+                    </li>
+                    <li>
+                        <input name="sort" type="checkbox" id="boos">
+                        <label for="verdrietig"> boos (18)</label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Interesse</legend>
+                <ul>
+                    <li>
+                        <input name="sort" type="checkbox" id="politiek">
+                        <label for="politiek"> Politiek (24)</label>
+                    </li>
+                    <li>
+                        <input name="sort" type="checkbox" id="muziek">
+                        <label for="muziek"> Muziek (21)</label>
+                    </li>
+                    <li>
+                        <input name="sort" type="checkbox" id="sport">
+                        <label for="sport"> Sport (5)</label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Leesstijl</legend>
+                <ul>
+                    <li>
+                        <input name="sort" type="checkbox" id="eerstepersoon">
+                        <label for="eerstepersoon"> Eerste persoon (54)</label>
+                    </li>
+                    <li>
+                        <input name="sort" type="checkbox" id="derdepersoon">
+                        <label for="derdepersoon"> Derde persoon (29)</label>
+                    </li>
+                    <li>
+                        <input name="sort" type="checkbox" id="beeldend">
+                        <label for="beeldend"> Beeldend (14)</label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <input type="submit" value="Zoek">
+        </form>
+
+        <article>
+            <a href="/">
+                <h3>Notitie #1</h3>
+            </a>
+
+            <a href="/">
+                <img src="/" alt="iphoneplaatje">
+            </a>
+            <ul>
+                <li>
+                    <img src="/" alt="hartje"> 123</li>
+                <li>
+                    <img src="/" alt="comment"> 15</li>
+                <li>
+                    <img src="/" alt="leestijd"> 10m</li>
+            </ul>
+
+            <a href="/">
+                <img src="/" alt="mijnlijst">
+            </a>
+
+            <a href="/">
+                <img src="/" alt="download">
+            </a>
+
+        </article>
+
+        <article>
+            <a href="/">
+                <h3>Verliefd #10</h3>
+            </a>
+
+            <a href="/">
+                <img src="/" alt="verliefd">
+            </a>
+            <ul>
+                <li>
+                    <img src="/" alt="hartje"> 156</li>
+                <li>
+                    <img src="/" alt="comment"> 34</li>
+                <li>
+                    <img src="/" alt="leestijd"> 11m</li>
+            </ul>
+
+            <a href="/">
+                <img src="/" alt="mijnlijst">
+            </a>
+
+            <a href="/">
+                <img src="/" alt="download">
+            </a>
+
+        </article>
+
+    </section>
+</body>
+
+</html>
